@@ -1,0 +1,173 @@
+* {
+    font-family: 'Alegreya Sans SC', sans-serif !important;
+    outline: none !important;
+}
+
+/* header */
+
+header .bg-dark {
+    background: black !important;
+}
+
+header .navbar-brand {
+    background: url(img/logo.png) no-repeat !important;
+    background-size: contain;
+    height: 60px;
+    width: 60px
+}
+
+.list-unstyled a:hover {
+    color: #03D3C5 !important;
+    text-decoration: none;
+}
+
+.jumbotron {
+    background: url(img/header.png) no-repeat !important;
+    background-size: 100% !important;
+    border-radius: 0 !important;
+    color: white !important;
+}
+
+.text_left {
+    text-align: left !important;
+}
+
+.text_left h1 {
+    font-size: 50px !important;
+    font-weight: 400 !important;
+}
+
+.btn_me {
+    border: 1px solid #03D3C5 !important;
+    border-radius: 0 !important;
+    background: none !important;
+}
+
+.btn_me:hover {
+    border-radius: 0 !important;
+    background: #03D3C5 !important;
+}
+
+/* contacts */
+
+header .btn_cont {
+    background: none;
+    border: none;
+    padding: 0;
+    transition: 0s;
+}
+
+header .btn_cont:hover {
+    background: none;
+    padding: 0;
+    color: #03D3C5 !important;
+}
+
+header .modal-content {
+    background: white;
+    padding: 10px;
+}
+
+header .modal-content .fb {
+    width: 65px;
+}
+
+header .modal-content .vk {
+    width: 20px;
+}
+
+header .modal-content .gm {
+    width: 190px;
+}
+
+/* about */
+
+.text_about {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about {
+    margin-top: 100px;
+}
+
+.about a {
+    color: #03D3C5 !important;
+}
+
+.about ul {
+    margin-top: 10px;
+}
+
+.me_about {
+    font-size: 16px;
+}
+
+.link {
+    margin-top: -5px;
+}
+
+/* img */
+
+main .bg-light {
+    background: white !important;
+}
+
+.proj_name {
+    margin-bottom: -10px;
+}
+
+.row{
+    padding-top: 50px;
+}
+
+.row img {
+    width: 100%;
+    margin: auto;
+    opacity: 1;
+}
+
+/* modal */
+
+.btn_color button {
+    border: 1px solid #6c757d;
+    outline: none !important;
+    overflow: hidden !important;
+}
+
+.modal-dialog img {
+    opacity: 1 !important;
+}
+
+.modal-content img {
+    width: 100%;
+}
+
+.modal-content h5 {
+    padding: 20px;
+}
+
+/* footer */
+
+.nav-tabs a {
+    color: black !important;;
+}
+
+/* footer */
+
+footer {
+    background: black !important;
+}
+
+footer p {
+    color: white !important;
+}
+
+footer a {
+    color: #03D3C5 !important;
+}
+
+.dev {
+    color: #6c757d !important;
+    margin-top: 30px;
+}

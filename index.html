@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Main page | Bulatov</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="album.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">О сайте</h4>
+                        <p class="text-muted">Вы попали на страницу портфолио начинающего веб-дизайнера. Здесь вы можете посмотреть мое портфолио, оценить уровень моих умений. Мой основной профиль — разработка frontend части сайта.</p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Навигация</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="pages/projects.html" class="text-white">Проекты</a></li>
+                            <li><button type="button" class="btn btn-primary btn_cont" data-toggle="modal" data-target=".bd-example-modal-sm">Контакты</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Модальное окно с информацией о контактах -->
+
+            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <h4><b>Контакты</b></h4>
+                        <a class="fb" href="https://www.facebook.com/ilyas.bulatov.92">Facebook</a>
+                        <a class="gm" href="mailto:74vid74@gmail.com">Gmail (74vid74@gmail.com)</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+
+        <section class="jumbotron text-center">
+            <div class="container text_left">
+                <h1>Designer's portfolio</h1>
+                <p class="lead text-muted">
+                    <p>A small web resource where I can upload my work. Here you can view information about me, take a look at the latest developments and find a way to contact me.
+                    </p>
+                    <p>
+                        <a href="mailto:74vid74@gmail.com" class="btn btn-primary my-2 btn_me">Contact me</a>
+                    </p>
+            </div>
+        </section>
+
+        <div class="container about">
+            <h3 class="text_about">Обо мне</h3>
+            <div class="lead text-muted me_about">
+                <p>Меня зовут Булатов Ильяс</p>
+                <p>Я начинающий веб-дизайнер. Окончил Челябинский Радиотехнический Техникум по специальности техник-программист. Для себя выбрал Frontend. Получил за диплом “отлично”. В качестве дипломной работы разрабатывал сайт электронной музыки с небольшим плеером.</p>
+                <p>Свой первый сайт я сверстал на первом курсе обучения (2015-2016 год). Он был местами кривой и неказистый. Использовал html4 и внутренние стили.</p>
+                <p>Сейчас мои умения возросли, я познакомился с SEO, освоил адаптивность, flexbox, работал с UI/UX дизайном и тд. Начал изучать методологию БЭМ. Занимаюсь версткой, разрабатываю дизайн сайтов и работаю с макетами. На данный момент участвую в нескольких небольших проектах, связанных с “геймдевом”. Продолжительное время работал в типографии, имею опыт с печатной продукцией, макеты визиток, брошюр и тд.</p>
+                <p>Считаю, что сайт должен выполнять поставленные задачи. Люблю понятные интерфейсы, поэтому предпочитаю минимализм.</p>
+
+                Владею:
+                <ul class="list-unstyled ul_about">
+                    <li>• Adobe Photoshop</li>
+                    <li>• Adobe Illustrator</li>
+                    <li>• CorelDRAW</li>
+                    <li>• Figma</li>
+                    <li>• HTML5/CSS3 (и немного js)</li>
+                    <li>• Bootstrap</li>
+                    <li>• Netcat</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="container about">
+            <h3 class="text_about proj_name">Мои работы</h3>
+        </div>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="img/prev/sait/prev_game.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">Одностраничный сайт на тематику 8-bit.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <!-- Модальное окно -->
+                                    <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_work_game">Подробнее</button>
+
+                                    <div class="modal fade modal_work_game" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <img src="img/card/sait/game1.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <small class="text-muted">
+                                        категория: сайт
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="img/prev/uxui/prev_book.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">Макет прототипа текстовой игры.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <!-- Модальное окно -->
+                                    <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_work_book">Подробнее</button>
+
+                                    <div class="modal fade modal_work_book" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <img src="img/card/uxui/book1.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <small class="text-muted">
+                                        категория: UX/UI
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img src="img/prev/logo/prev_gen.png" alt="">
+                            <div class="card-body">
+                                <p class="card-text">Логотип.
+                                </p>
+                                <div class="d-flex justify-content-between align-items-center">
+
+                                    <!-- Модальное окно -->
+                                    <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_gen">Подробнее</button>
+
+                                    <div class="modal fade modal_gen" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <img src="img/card/logo/gen1.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <small class="text-muted">
+                                        категория: логотип
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="container about link">
+                <p>
+                    Все остальные работы вы сможете увидеть в разделе
+                    <a href="pages/projects.html">проекты</a>!
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">В начало</a>
+            </p>
+            <p>
+                Связь со мной <a href="mailto:74vid74@gmail.com">74vid74@gmail.com</a>
+            </p>
+            <p>
+                &copy; 2020 Булатов Ильяс
+            </p>
+            <p class="dev">
+                Сайт находится в доработке.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body></html>
