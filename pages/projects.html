@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Projects page | Bulatov</title>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../album.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">О сайте</h4>
+                        <p class="text-muted">Вы попали на страницу портфолио начинающего веб-дизайнера. Здесь вы можете посмотреть мое портфолио, оценить уровень моих умений. Мой основной профиль — разработка frontend части сайта.</p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Навигация</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="../index.html" class="text-white">Главная</a></li>
+                            <li><button type="button" class="btn btn-primary btn_cont" data-toggle="modal" data-target=".bd-example-modal-sm">Контакты</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Модальное окно с информацией о контактах -->
+
+            <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <h4><b>Контакты</b></h4>
+                        <a class="fb" href="https://www.facebook.com/ilyas.bulatov.92">Facebook</a>
+                        <a class="gm" href="mailto:74vid74@gmail.com">Gmail (74vid74@gmail.com)</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between">
+                <a href="../index.html" class="navbar-brand d-flex align-items-center"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+
+        <div class="container about">
+            <h3 class="text_about proj_name">Мои работы</h3>
+        </div>
+
+        <div class="album py-5 bg-light">
+            <div class="container">
+
+                <!-- Вкладки -->
+
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#sait" role="tab">Сайты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#logo" role="tab">Логотипы</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#uxui" role="tab">UX/UI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#banner" role="tab">Баннеры</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#etc" role="tab">Разное</a>
+                    </li>
+                </ul>
+
+                <!-- Содержимое -->
+
+                <div class="tab-content" role="tablist">
+
+                    <!-- Категория: сайты -->
+
+                    <div class="tab-pane active" id="sait" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/sait/prev_audio.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Сайт с небольшим плеером.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_work_audio">Подробнее</button>
+
+                                            <div class="modal fade modal_work_audio" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/sait/audio1.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: сайт
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/sait/prev_game.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Одностраничный сайт на тематику 8-bit.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_work_game">Подробнее</button>
+
+                                            <div class="modal fade modal_work_game" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/sait/game1.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: сайт
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Категория: логотипы -->
+
+                    <div class="tab-pane" id="logo" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/logo/prev_cube.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Логотип.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_cube">Подробнее</button>
+
+                                            <div class="modal fade modal_cube" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/logo/cube1.png" alt="">
+                                                        <hr>
+                                                        <img src="../img/card/logo/cube2.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: логотип
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/logo/prev_gen.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Логотип.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_gen">Подробнее</button>
+
+                                            <div class="modal fade modal_gen" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/logo/gen1.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: логотип
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/logo/prev_squad.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Логотип "squad".
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_squad">Подробнее</button>
+
+                                            <div class="modal fade modal_squad" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/logo/squad1.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: логотип
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/logo/prev_bov.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Логотип.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_bov">Подробнее</button>
+
+                                            <div class="modal fade modal_bov" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/logo/bov1.png" alt="">
+                                                        <hr>
+                                                        <img src="../img/card/logo/bov2.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: логотип
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/logo/prev_ff.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Логотип "For friends".
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_ff">Подробнее</button>
+
+                                            <div class="modal fade modal_ff" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/logo/ff1.png" alt="">
+                                                        <hr>
+                                                        <img src="../img/card/logo/ff2.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: логотип
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/logo/prev_b.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Логотип.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_b">Подробнее</button>
+
+                                            <div class="modal fade modal_b" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/logo/b1.png" alt="">
+                                                        <hr>
+                                                        <img src="../img/card/logo/b2.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: логотип
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Категория: UX/UI -->
+
+                    <div class="tab-pane" id="uxui" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/uxui/prev_lun.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">GUI (1 из 3-х экранов).
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_work_lun">Подробнее</button>
+
+                                            <div class="modal fade modal_work_lun" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/uxui/lun1.png" alt="">
+                                                        <hr>
+                                                        <img src="../img/card/uxui/lun2.png" alt="">
+                                                        <hr>
+                                                        <img src="../img/card/uxui/lun3.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: UX/UI
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/uxui/prev_book.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Прототип текстовой игры.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_work_book">Подробнее</button>
+
+                                            <div class="modal fade modal_work_book" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/uxui/book1.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: UX/UI
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/uxui/prev_form.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Форма регистрации.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_work_form">Подробнее</button>
+
+                                            <div class="modal fade modal_work_form" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/uxui/form1.png" alt="">
+                                                        <hr>
+                                                        <img src="../img/card/uxui/form2.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: UX/UI
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/uxui/prev_lanc.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Дизайн лаунчера.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_work_lanc">Подробнее</button>
+
+                                            <div class="modal fade modal_work_lanc" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/uxui/lanc1.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: UX/UI
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/uxui/prev_train.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Макет главного меню.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_work_train">Подробнее</button>
+
+                                            <div class="modal fade modal_work_train" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/uxui/train1.png" alt="">
+                                                        <hr>
+                                                        <img src="../img/card/uxui/train2.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: UX/UI
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/uxui/prev_mem.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">"Memory: together forever".
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_work_mem">Подробнее</button>
+
+                                            <div class="modal fade modal_work_mem" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/uxui/mem1.png" alt="">
+                                                        <hr>
+                                                        <img src="../img/card/uxui/mem2.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: UX/UI
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Категория: баннеры -->
+
+                    <div class="tab-pane" id="banner" role="tabpanel">
+                        <div class="row">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img src="../img/prev/banner/prev_med.png" alt="">
+                                        <div class="card-body">
+                                            <p class="card-text">Реклама вет-аптеки.
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+
+                                                <!-- Модальное окно -->
+                                                <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_work_med">Подробнее</button>
+
+                                                <div class="modal fade modal_work_med" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-lg">
+                                                        <div class="modal-content">
+                                                            <img src="../img/card/banner/med1.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <small class="text-muted">
+                                                    категория: баннер
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img src="../img/prev/banner/prev_milk.png" alt="">
+                                        <div class="card-body">
+                                            <p class="card-text">Молоко для вас.
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+
+                                                <!-- Модальное окно -->
+                                                <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_work_milk">Подробнее</button>
+
+                                                <div class="modal fade modal_work_milk" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-lg">
+                                                        <div class="modal-content">
+                                                            <img src="../img/card/banner/milk1.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <small class="text-muted">
+                                                    категория: баннер
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img src="../img/prev/banner/prev_rep.png" alt="">
+                                        <div class="card-body">
+                                            <p class="card-text">Баннер ремонтной организации.
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+
+                                                <!-- Модальное окно -->
+                                                <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_rep">Подробнее</button>
+
+                                                <div class="modal fade modal_rep" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-lg">
+                                                        <div class="modal-content">
+                                                            <img src="../img/card/banner/rep1.png" alt="">
+                                                            <hr>
+                                                            <img src="../img/card/banner/rep2.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <small class="text-muted">
+                                                    категория: баннер
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img src="../img/prev/banner/prev_school.png" alt="">
+                                        <div class="card-body">
+                                            <p class="card-text">"К новым знаниям!"
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+
+                                                <!-- Модальное окно -->
+                                                <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_school">Подробнее</button>
+
+                                                <div class="modal fade modal_school" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-lg">
+                                                        <div class="modal-content">
+                                                            <img src="../img/card/banner/school1.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <small class="text-muted">
+                                                    категория: баннер
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="card mb-4 shadow-sm">
+                                        <img src="../img/prev/banner/prev_tree.png" alt="">
+                                        <div class="card-body">
+                                            <p class="card-text">Реклама пиломатериалов.
+                                            </p>
+                                            <div class="d-flex justify-content-between align-items-center">
+
+                                                <!-- Модальное окно -->
+                                                <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_tree">Подробнее</button>
+
+                                                <div class="modal fade modal_tree" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-lg">
+                                                        <div class="modal-content">
+                                                            <img src="../img/card/banner/tree1.png" alt="">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <small class="text-muted">
+                                                    категория: баннер
+                                                </small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Категория: разное -->
+
+                    <div class="tab-pane" id="etc" role="tabpanel">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/etc/prev_meg.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Превью для "ютуба".
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_meg">Подробнее</button>
+
+                                            <div class="modal fade modal_meg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/etc/meg1.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: разное
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/etc/prev_spec.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Превью для "ютуба".
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_spec">Подробнее</button>
+
+                                            <div class="modal fade modal_spec" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/etc/spec1.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: разное
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4">
+                                <div class="card mb-4 shadow-sm">
+                                    <img src="../img/prev/etc/prev_in.png" alt="">
+                                    <div class="card-body">
+                                        <p class="card-text">Иконка приложения.
+                                        </p>
+                                        <div class="d-flex justify-content-between align-items-center">
+
+                                            <!-- Модальное окно -->
+                                            <button class="btn btn-sm btn-outline-secondary btn_color" data-toggle="modal" data-target=".modal_in">Подробнее</button>
+
+                                            <div class="modal fade modal_in" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+                                                <div class="modal-dialog modal-lg">
+                                                    <div class="modal-content">
+                                                        <img src="../img/card/etc/in1.png" alt="">
+                                                        <hr>
+                                                        <img src="../img/card/etc/in2.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <small class="text-muted">
+                                                категория: разное
+                                            </small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">В начало</a>
+            </p>
+            <p>
+                Связь со мной <a href="mailto:74vid74@gmail.com">74vid74@gmail.com</a>
+            </p>
+            <p>
+                &copy; 2020 Булатов Ильяс
+            </p>
+            <p class="dev">
+                Сайт находится в доработке.
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body></html>
