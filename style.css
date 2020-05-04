@@ -13,7 +13,8 @@ header .navbar-brand {
     background: url(img/logo.png) no-repeat !important;
     background-size: contain;
     height: 60px;
-    width: 60px
+    width: 60px;
+    margin-left: -15px;
 }
 
 .list-unstyled a:hover {
@@ -117,7 +118,7 @@ main .bg-light {
     margin-bottom: -10px;
 }
 
-.row{
+.row {
     padding-top: 50px;
 }
 
@@ -150,7 +151,8 @@ main .bg-light {
 /* footer */
 
 .nav-tabs a {
-    color: black !important;;
+    color: black !important;
+    ;
 }
 
 /* footer */
