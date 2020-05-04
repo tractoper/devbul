@@ -14,7 +14,7 @@ header .navbar-brand {
     background-size: contain;
     height: 60px;
     width: 60px;
-
+    margin-left: -15px;
 }
 
 .list-unstyled a:hover {
