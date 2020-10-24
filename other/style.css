@@ -1,0 +1,166 @@
+html {
+    font-family: 'Press Start 2P';
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: center url(bg.gif);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.frame {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    overflow: auto;
+}
+
+.frame_an {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: -50px;
+    left: 0;
+    display: flex;
+    overflow: auto;
+}
+
+.block {
+    margin: auto;
+}
+
+.block img {
+    display: block;
+    border: none;
+}
+
+.an {
+    width: 250px;
+}
+
+.logo {
+    bottom: 200px;
+    position: relative;
+    width: 700px;
+}
+
+.btn {
+    top: 600px;
+    position: relative;
+    z-index: 10;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+}
+
+.panel btn {
+    margin: auto;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+.a_demo_five {
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid black;
+    font-size: 20px;
+    background-color: #23e4da;
+    width: 250px;
+    display: inline-block;
+    font-family: 'Press Start 2P';
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    box-shadow: inset 0px 1px 0px black, 0px 5px 0px 0px black;
+    outline: none;
+}
+
+.a_demo_five:active {
+    border-radius: 10px;
+    top: 3px;
+    box-shadow: inset 0px 4px 1px black, 0px 2px 0px 0px black;
+}
+
+.a_demo_five::before {
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: "";
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    margin-top: -11px;
+    z-index: -1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.a_demo_five:active::before {
+    border-radius: 10px;
+    top: -33px;
+}
+
+.audio {
+    position: absolute;
+    z-index: 15;
+    left: 40px;
+}
+
+.audio button {
+    border-radius: 100%;
+    border: 3px solid black;
+    font-size: 20px;
+    background-color: #23e4da;
+    display: inline-block;
+    font-family: 'Press Start 2P';
+    text-decoration: none;
+    color: black;
+    position: relative;
+    padding: none;
+    box-shadow: inset 0px 1px 0px black, 0px 5px 0px 0px black;
+    outline: none;
+}
+
+.audio button:active {
+    border-radius: 100%;
+    top: 3px;
+    box-shadow: inset 0px 4px 1px black, 0px 2px 0px 0px black;
+}
+
+.audio button::before {
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: 0px;
+    margin-top: -11px;
+    z-index: -1;
+
+}
+
+.audio button:active::before {
+    border-radius: 100%;
+    top: -33px;
+}
+
+button {
+    outline: none;
+}
