@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ready?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/audioplayer.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale = 1">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/vue.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</head>
+
+<body>
+
+    <audio id="player1" src="bg.mp3"></audio>
+
+    <div id="game">
+        <transition>
+            <div v-if="screen === 'intro'" class="screen screen-start show">
+                <div class="panel">
+                    <form>
+                        <div class="frame_an">
+                            <div class="block">
+                                <img class="logo" src="3logo.png" alt="">
+                            </div>
+                        </div>
+
+                        <div class="frame">
+                            <div class="block">
+                                <img class="an" src="an.gif" alt="">
+                            </div>
+                        </div>
+                        <div class="btn">
+                            <input @click.prevent="start" type="submit" class="a_demo_five" value="START!">
+                            <!--<input v-model="name" type="text" placeholder="Enter your name, Wizard!">-->
+                        </div>
+                    </form>
+                    <section>
+
+                        <div class="audio">
+                            <button class="play" onclick="document.getElementById('player1').play()"><img class="inplay" src="on.png" alt=""></button>
+                            <button class="pause" onclick="document.getElementById('player1').pause()"><img class="inpause" src="off.png" alt=""></button>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </transition>
+        <div class="screen screen-game">
+            <transition>
+                <div v-if="screen === 'play'" id="field" :style="game.left">
+                    <img src="assets/img/bg-game.png">
+                    <entity v-for="entity in game.entities" :key="entity.id" :id="entity.id" :entity="entity">
+                    </entity>
+                </div>
+            </transition>
+            <transition>
+                <div v-if="screen === 'play'" class="game-panel game-panel-user">
+                    <div class="user-info">{{name}}</div>
+                    <div class="panel-xp">
+                        <div class="score-value" :style="{width: game.entities[0].chars.hp + '%'}">
+                            <span>{{game.entities[0].chars.hp}}</span>
+                        </div>
+                    </div>
+
+                </div>
+            </transition>
+            <transition>
+                <div v-if="screen === 'play'" class="game-panel game-panel-scores">
+                    <div class="timer">Time: {{game.time}}</div>
+                    <div class="kills">Killed: {{game.kills}}</div>
+                </div>
+            </transition>
+            <transition>
+                <div v-if="screen === 'play'" class="game-panel game-panel-skills">
+
+                </div>
+            </transition>
+        </div>
+        <transition>
+            <div v-if="screen === 'rank'" class="screen screen-ranking">
+                <div class="panel">
+                    <p v-if="!table.ready"></p>
+                    <table v-if="table.ready">
+                        <tr>
+                            <th>№</th>
+                            <th>Username</th>
+                            <th>Killed monsters</th>
+                            <th>Time</th>
+                        </tr>
+                        <tr v-for="row in table.data" is="row" :lid="table.id" :key="row.id" :row="row">
+                        </tr>
+                    </table>
+                    <button @click="start" class="a_demo_five">Try!</button>
+                    <div class="audio">
+                        <button class="play" onclick="document.getElementById('player1').play()"><img class="inplay" src="on.png" alt=""></button>
+                        <button class="pause" onclick="document.getElementById('player1').pause()"><img class="inpause" src="off.png" alt=""></button>
+                    </div>
+                </div>
+            </div>
+        </transition>
+    </div>
+
+</body>
+
+</html>
